@@ -1,0 +1,260 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: unset;
+}
+
+/*footer whole division active now!*/
+.footer_test_mode{
+    background-color: rgb(44,44,44);
+    color:white;
+    font-family:'Lora', serif;
+    padding: 3vh 0 0 0;
+    margin-bottom: -10vh;
+}
+
+
+.footer_icons_div{
+    margin-bottom: 2vh;
+}
+
+.footer_icons{
+    font-size: 2rem;
+    color:white;
+    margin: 0 3vh;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.row_membership_section{
+    margin: 25vh 0;
+}
+
+
+.bg_mine{
+    background-attachment: fixed;
+}
+
+
+.section_mine{
+    padding-bottom: 0;
+}
+.parallax_mine {
+    /* The image used */
+    display: grid;
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax_mine_filter{
+    background: rgba(0,168,255,0.5);
+    background: linear-gradient(270deg,rgba(0,168,255,0.6),rgba(185,0,255,0.6));
+}
+.card_subscribe{
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+.card_membership{
+    height:50vh!important;
+}
+.card_title_membership2{
+    background-color: rgb(116,66,244);
+    background: linear-gradient(180deg,rgba(155,119,244,0.6),rgba(185,0,255,0.6));
+    font-family:'Lora', serif;
+}
+.card_title_subscribe{
+    font-family:'Lora', serif;
+}
+
+.list_price{
+    font-family:'Lora', serif;
+    font-size:2rem;
+}
+
+
+/*navigation orange to blue*/
+.bg-primary {
+    background-color: rgba(19,102,216,1.0)!important;
+}
+
+.sidebar-collapse .navbar-collapse:before {
+    background: rgba(19,102,216,0.9);
+}
+
+.row_customizing1{
+    margin: 25vh;
+}
+
+.row_customizing2{
+    margin: 14vh 0;
+}
+
+.card_customizing1{
+    box-shadow: none;
+}
+
+.card_customizing_membership{
+    border-radius: 3.5rem;
+    width:80%;
+}
+
+.card_body_customizing1{
+    padding-top: 0;
+}
+
+.row_title_membership{
+    font-family:'Lora', serif;
+    font-size:2rem;
+    letter-spacing:0.2rem;
+    margin-top:5vh;
+    margin-bottom: 10vh;
+    background: rgb(105,0,255);
+    background: linear-gradient(to right,rgb(255,85,85),rgb(105,0,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card_title_customizing1{
+    font-family:'Lora', serif;
+    font-size:1.5rem;
+    letter-spacing:0.2rem;
+    margin-top:5vh;
+}
+
+
+/*index page height to 100vh from 125vh*/
+.index-page .page-header {
+    height: 100vh;
+}
+
+/*bg filter*/
+.clear-filter {
+    background: rgba(0,168,255,0.5);
+    background: linear-gradient(270deg,rgba(0,168,255,0.6),rgba(185,0,255,0.6));
+}
+
+/*4 W I N E S*/
+.logo{
+    font-family:'Lora', serif;
+    font-size:4rem;
+    letter-spacing:0.3rem;
+}
+
+
+
+/*A great wine club for beginners*/
+.logo_sub{
+    font-family:'Open Sans', sans-serif;
+}
+
+/*Logo -> put it in the middle of the screen*/
+.page-header .content-center {
+    top:50vh!important;
+}
+
+.body_button_mine{
+    background-color: rgb(185,0,255);
+    color: white;
+    border: 2px solid transparent!important;
+}
+/*rgb(116,66,244)*/
+.body_button_mine:hover{
+    background-color: rgb(215, 109, 255)!important;
+    border: 2px solid transparent!important;
+
+}
+.body_button_mine:focus{
+    background-color: rgb(160, 10, 216)!important;
+    border: 2px solid transparent!important;
+
+}
+
+.body_button_mine_engine{
+    background-color: rgb(255,85,85);
+}
+.body_button_mine_engine:hover{
+    background-color: rgba(19,102,216,1.0)!important;
+}
+.body_button_mine_engine:focus{
+    background-color: rgb(211, 71, 71)!important;
+}
+
+
+/*"try our demo*/
+.try_demo{
+    background-color: rgba(204,91,59,.1);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid white;
+    margin-top:4rem;
+    font-weight: 900;
+}
+.try_demo:hover {
+    background-color: rgba(19,102,216,.3);
+    border: 3px solid white;
+}
+.try_demo:focus {
+    background-color: rgba(60,24,50,.5);
+    border: 2px solid white;
+}
+.try_demo:active {
+    background-color: rgba(60,24,50,.9)!important;
+    border: 2px solid white!important;
+}
+
+
+@media only screen and (min-width: 991.99px) {
+    .nav_item_hide_lg{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .logo {
+        font-size: 3.5rem;
+    }
+    /*Logo top*/
+    .page-header .content-center {
+        top:55vh;
+    }
+
+} 
+
+@media only screen and (max-width: 800px) {
+    .row_customizing1{
+        margin: 25vh 0;
+    }
+    .card_title_membership{
+        margin-bottom: 5vh;
+    }
+
+} 
+
+@media only screen and (max-width: 600px) {
+    .try_demo{
+        margin-top:3rem;
+    }
+    /*Logo top*/
+    .page-header .content-center {
+        top:45vh;
+    }
+} 
+
+
+
